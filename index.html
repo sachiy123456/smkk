@@ -1,362 +1,451 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SMKK Website HTML and CSS | Web Addicted </title>
-    <!-- CSS Link -->
-    <link rel="stylesheet" href="style.css" />
-    <!-- Box Icon Link for Icons -->
-    <link
-      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <!-- Header & Navbar Section -->
-    <header>
-      <nav>
-        <div class="nav_logo">
-          <a href="#">
-            <img src="images\logo3.png" alt="smkk_logo" />
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SMKK Website HTML and CSS | Web Addicted </title>
+  <!-- CSS Link -->
+  <link rel="stylesheet" href="style.css" />
+  <!-- Box Icon Link for Icons -->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- Header & Navbar Section -->
+  <header>
+    <nav>
+      <div class="nav_logo">
+        <a href="#">
+          <img src="images/logo3.png" alt="smkk_logo" />
+          <h2>Saraswati Murti Kala Kendra</h2>
+        </a>
+      </div>
+
+      <input type="checkbox" id="click" />
+      <label for="click">
+        <i class="menu_btn bx bx-menu"></i>
+        <i class="close_btn bx bx-x"></i>
+      </label>
+
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#service">Services</a></li>
+        <li><a href="#why">Why Us</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero_section">
+    <div class="section_container">
+      <div class="hero_container">
+        <div class="text_section">
+          <h2>Creativity takes courage</h2>
+          <h3>Art is a collaboration between God and the artist, and the less the artist does the better.</h3>
+          <p>
+            Welcome to our Saraswati Murti Kala Kendra, where we make from soil to soul.
+          </p>
+
+          <div class="hero_section_button">
+            <a class="button" href="https://wa.me/message/KYRES3GCIYONI1" target="_blank" rel="noopener">Order
+              Online</a>
+
+          </div>
+        </div>
+
+        <div class="image_section">
+          <img src="images/saraswati3.png" alt="Idol" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Us Section -->
+  <section class="about_us" id="about">
+    <div class="section_container">
+      <div class="about_container">
+        <div class="text_section">
+          <h2 class="section_title">About Us</h2>
+          <p>
+            We at Saraswati Murti Kala Kendra located in Aliyabad Katai Azamgarh are one of the
+            favorite idol making and designing divine statue. Our goal is to
+            offer the best experience to your spirittual journey in fastivals, ensuring an authentic
+            soil Idol making with Ecofriendly and Tradditnal process. We aim to provide grate expirinace with our
+            services.
+            Ready to invite prosperity and Harmony in to your space.
+
+          </p>
+        </div>
+
+        <div class="image_section">
+          <img src="images/logo krishna.png" alt="krishna" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services" id="service">
+    <h2 class="section_title">Our Services</h2>
+    <div class="section_container">
+      <div class="service_container">
+        <div class="services_items">
+          <img align="middle" src="images/s_hanuman1.png" alt="s_hanuman" />
+          <div class="services_text">
+            <h3>Soil Statue</h3>
+            <p>
+              Wide range of soil statue avilable. We provide you traddetionl statue for worship.
+            </p>
+          </div>
+        </div>
+        <div class="services_items">
+          <img src="images/pop durga2.png" alt="pop durga" />
+          <div class="services_text">
+            <h3>POP statue</h3>
+            <p>
+              Wide range of POP statue and
+              providing POP statue as a customer Require Durability.
+            </p>
+          </div>
+        </div>
+        <div class="services_items">
+          <img src="images/mahadev1.png" alt="mahadev" />
+          <div class="services_text">
+            <h3>solid statue</h3>
+            <p>Concrete and granite statues for temples and public gathering places</p>
+          </div>
+        </div>
+        <div class="services_items">
+          <img src="images/d_peacock 2.png" alt="d_peacock" />
+          <div class="services_text">
+            <h3>Decorative statue</h3>
+            <p>
+              We have wide range of other decorative statues.It helps to Decorate your house
+            </p>
+          </div>
+        </div>
+        <div class="services_items">
+          <img src="images/big and small2.png" alt="big and small" />
+          <div class="services_text">
+            <h3>Big & Small statue</h3>
+            <p>All sizes available As per customer requirement</p>
+          </div>
+        </div>
+        <div class="services_items">
+          <img src="images/lion.png" alt="lion" />
+          <div class="services_text">
+            <h3>Costomized statue</h3>
+            <p>
+              We also expert in customised product as per customer Requirement.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Us Section -->
+  <section class="why_us" id="why">
+    <h2 class="section_title">Why Us?</h2>
+    <div class="section_container">
+      <div class="why_container">
+        <div class="why_items">
+          <img src="images/new.png" alt="New creativity" />
+          <div class="why_us_text">
+            <h3>New Creativity</h3>
+            <p>
+              We introducing new design and theme with new ideas every years
+            </p>
+          </div>
+        </div>
+        <div class="why_items">
+          <img src="images/service.png" alt="service" />
+          <div class="why_us_text">
+            <h3>Service</h3>
+            <p>
+              Painting polishing repair and maintenance for old as well as new statues , providing post sale service
+            </p>
+          </div>
+        </div>
+        <div class="why_items">
+          <img src="images/quality.png" alt="quality" />
+          <div class="why_us_text">
+            <h3>Quality</h3>
+            <p>
+              Happy to serve best quality to our customers to provide and high quality products and services
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section class="gallery" id="gallery">
+    <h2 class="section_title">Gallery</h2>
+    <div class="section_container">
+      <div class="gallery_container">
+        <div class="gallery_items">
+          <img src="images/krishna.jpg" alt="Gallery Image" />
+        </div>
+        <div class="gallery_items">
+          <img src="images/radhe_krishna.jpg" alt="Gallery Image" />
+        </div>
+        <div class="gallery_items">
+          <img src="images/chhath2.jpg" alt="Gallery Image" />
+        </div>
+        <div class="gallery_items">
+          <img src="images/Radha Krishna 3.jpg" alt="Gallery Image" />
+        </div>
+        <div class="gallery_items">
+          <img src="images/durga2.jpg" alt="Gallery Image" />
+        </div>
+        <div class="gallery_items">
+          <img src="images/ganesh.jpg" alt="Gallery Image" />
+        </div>
+        <div class="gallery_items">
+          <img src="images/durga.jpg" alt="Gallery Image" />
+        </div>
+        <div class="gallery_items">
+          <img src="images/laxmi.jpg" alt="Gallery Image" />
+        </div>
+        <div class="gallery_items">
+          <img src="images/Card (2).png" alt="Gallery Image" />
+        </div>
+        <div class="gallery_items">
+          <img src="images/Murti (1).jpg" alt="Gallery Image" />
+        </div>
+        <div class="gallery_items">
+          <img src="images/Murti (1).png" alt="Gallery Image" />
+        </div>
+        <div class="gallery_items">
+          <img src="images/Murti (2).jpg" alt="Gallery Image" />
+        </div>
+        <div class="gallery_items">
+          <img src="images/Murti (2).png" alt="Gallery Image" />
+        </div>
+        <div class="gallery_items">
+          <img src="images/Murti (3).jpg" alt="Gallery Image" />
+        </div>
+        <div class="gallery_items">
+          <img src="images/Murti (3).png" alt="Gallery Image" />
+        </div>
+        <div class="gallery_items">
+          <img src="images/Murti (4).png" alt="Gallery Image" />
+        </div>
+        <div class="gallery_items">
+          <img src="images/Murti (4).jpg" alt="Gallery Image" />
+        </div>
+        <div class="gallery_items">
+          <img src="images/radha Krishna 2.jpg" alt="Gallery Image" />
+        </div>
+        <div class="gallery_items">
+          <img src="images/small statue.jpg" alt="Gallery Image" />
+        </div>
+        <div class="gallery_items">
+          <img src="images/small statue2.jpg" alt="Gallery Image" />
+        </div>
+        <div class="gallery_items">
+          <img src="images/laxmi ganesh.jpg" alt="Gallery Image" />
+        </div>
+        <div class="gallery_items">
+          <img src="images/Murti (5).jpg" alt="Gallery Image" />
+        </div>
+        <div class="gallery_items">
+          <img src="images/Murti (6).jpg" alt="Gallery Image" />
+        </div>
+        <div class="gallery_items">
+          <img src="images/Murti (7).jpg" alt="Gallery Image" />
+        </div>
+        <div class="gallery_items">
+          <img src="images/Murti (8).jpg" alt="Gallery Image" />
+        </div>
+        <div class="gallery_items">
+          <img src="images/Murti (9).jpg" alt="Gallery Image" />
+        </div>
+        <div class="gallery_items">
+          <img src="images/Card (1).png" alt="Gallery Image" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Full Screen Image Viewer -->
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox_close" id="lightboxClose" type="button" aria-label="Close image">&times;</button>
+    <img class="lightbox_image" id="lightboxImage" src="" alt="Full size gallery image" />
+  </div>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <h2 class="section_title">Contact Us</h2>
+    <div class="section_container">
+      <div class="contact_container">
+        <div class="contact_form">
+          <form action="https://api.web3forms.com/submit" method="post">
+            <input type="hidden" name="access_key" value="5a55b58d-35be-410d-bffe-284e1c0caf05">
+            <div class="field">
+              <label for="Name">Full Name</label>
+              <input name="name" id="Name" placeholder="Your Name" required />
+            </div>
+            <div class="field">
+              <label for="gmail">Your Gmail</label>
+              <input name="gmail" id="gmail" placeholder="Your Gmail" required />
+            </div>
+            <div class="field">
+              <label for="number">Your Number</label>
+              <input name="number" id="number" placeholder="Your Contact Number" required />
+            </div>
+            <div class="field">
+              <label for="textarea">Textarea</label>
+              <textarea name="textarea" id="textarea" placeholder="Your Message"></textarea>
+            </div>
+
+            <button class="button" id="post">Submit</button>
+          </form>
+        </div>
+
+        <div class="contact_text">
+          <div class="contact_items">
+            <i class="bx bx-current-location"></i>
+            <div class="contact_details">
+              <h3>Our Location</h3>
+              <p>Aliyabad Katai,UP</p>
+            </div>
+          </div>
+          <div class="contact_items">
+            <i class="bx bxs-envelope"></i>
+            <div class="contact_details">
+              <h3>General Enquries</h3>
+              <a href="https://mail.google.com/mail/u/0/#inbox?compose=new"> sachchitanandyadav01@gmail.com </a>
+            </div>
+          </div>
+          <div class="contact_items">
+            <i class="bx bxs-phone-call"></i>
+            <div class="contact_details">
+              <h3>Call Us</h3>
+              <p>+91 9415826430</p>
+            </div>
+          </div>
+          <div class="contact_items">
+            <i class="bx bxs-time-five"></i>
+            <div class="contact_details">
+              <h3>Our Timing</h3>
+              <p>Mon-Sun : 10:00 AM - 7:00 PM</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <div class="section_container">
+      <div class="footer_section">
+        <div class="footer_logo">
+          <a href="index.html">
+            <img src="images/logo3.png" alt="smkk_logo" />
             <h2>Saraswati Murti Kala Kendra</h2>
           </a>
         </div>
 
-        <input type="checkbox" id="click" />
-        <label for="click">
-          <i class="menu_btn bx bx-menu"></i>
-          <i class="close_btn bx bx-x"></i>
-        </label>
-
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#service">Services</a></li>
-          <li><a href="#why">Why Us</a></li>
-          <li><a href="#gallery">Gallery</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
-
-    <!-- Hero Section -->
-    <section class="hero_section">
-      <div class="section_container">
-        <div class="hero_container">
-          <div class="text_section">
-            <h2>Creativity takes courage</h2>
-            <h3>Art is a collaboration between God and the  artist, and the less the artist does the better.</h3>
-            <p>
-              Welcome to our Saraswati Murti Kala Kendra, where we make from soil to soul.
-            </p>
-
-            <div class="hero_section_button">
-              <button class="button"><a href="https://wa.me/message/KYRES3GCIYONI1">Order Online</a></button>
-              
-            </div>
-          </div>
-
-          <div class="image_section">
-            <img src="images\saraswati3.png" alt="Idol"/>
-          </div>
+        <div class="useful_links">
+          <h3>Useful Links</h3>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#service">Services</a></li>
+            <li><a href="#why">Why Us</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
         </div>
-      </div>
-    </section>
 
-    <!-- About Us Section -->
-    <section class="about_us" id="about">
-      <div class="section_container">
-        <div class="about_container">
-          <div class="text_section">
-            <h2 class="section_title">About Us</h2>
-            <p>
-              We at Saraswati Murti Kala Kendra located in Aliyabad Katai Azamgarh are one of the
-              favorite idol making and designing divine statue. Our goal is to 
-              offer the best experience to your spirittual journey in fastivals, ensuring an authentic
-              soil Idol making with Ecofriendly and Tradditnal process. We aim to provide grate expirinace with our services.
-              Ready to invite prosperity and Harmony in to your space.
-
-            </p>
-          </div>
-
-          <div class="image_section">
-            <img src="images\logo krishna.png" alt="krishna" />
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Services Section -->
-    <section class="services" id="service">
-      <h2 class="section_title">Our Services</h2>
-      <div class="section_container">
-        <div class="service_container">
-          <div class="services_items">
-            <img align="middle" src="images\s_hanuman1.png" alt="s_hanuman" />
-            <div class="services_text">
-              <h3>Soil Statue</h3>
-              <p>
-                Wide range of soil statue avilable. We provide you traddetionl statue for worship.
-              </p>
-            </div>
-          </div>
-          <div class="services_items">
-            <img src="images\pop durga2.png" alt="pop durga" />
-            <div class="services_text">
-              <h3>POP statue</h3>
-              <p>
-                Wide range of POP statue and
-                providing POP statue as a customer Require Durability.
-              </p>
-            </div>
-          </div>
-          <div class="services_items">
-            <img src="images\mahadev1.png" alt="mahadev" />
-            <div class="services_text">
-              <h3>solid statue</h3>
-              <p>Concrete and granite statues for temples and public gathering places</p>
-            </div>
-          </div>
-          <div class="services_items">
-            <img src="images\d_peacock 2.png" alt="d_peacock" />
-            <div class="services_text">
-              <h3>Decorative statue</h3>
-              <p>
-              We have wide range of other decorative statues.It helps to Decorate your house
-              </p>
-            </div>
-          </div>
-          <div class="services_items">
-            <img
-              src="images\big and small2.png"
-              alt="big and small"
-            />
-            <div class="services_text">
-              <h3>Big & Small statue</h3>
-              <p>All sizes available As per customer requirement</p>
-            </div>
-          </div>
-          <div class="services_items">
-            <img src="images\lion.png" alt="lion" />
-            <div class="services_text">
-              <h3>Costomized statue</h3>
-              <p>
-                We also expert in customised product as per customer Requirement.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Why Us Section -->
-    <section class="why_us" id="why">
-      <h2 class="section_title">Why Us?</h2>
-      <div class="section_container">
-        <div class="why_container">
-          <div class="why_items">
-            <img src="images\new.png" alt="New creativity" />
-            <div class="why_us_text">
-              <h3>New Creativity</h3>
-              <p>
-                We introducing new design and theme with new ideas every years
-              </p>
-            </div>
-          </div>
-          <div class="why_items">
-            <img src="images\service.png" alt="service" />
-            <div class="why_us_text">
-              <h3>Service</h3>
-              <p>
-                Painting polishing repair and maintenance for old as well as new statues , providing post sale service
-              </p>
-            </div>
-          </div>
-          <div class="why_items">
-            <img src="images\quality.png" alt="quality" />
-            <div class="why_us_text">
-              <h3>Quality</h3>
-              <p>
-                Happy to serve best quality to our customers to provide and high quality products and services
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Gallery Section -->
-    <section class="gallery" id="gallery">
-      <h2 class="section_title">Gallery</h2>
-      <div class="section_container">
-        <div class="gallery_container">
-          <div class="gallery_items">
-            <img src="images\krishna.jpg" alt="Gallery Image" />
-          </div>
-          <div class="gallery_items">
-            <img src="images\radhe_krishna.jpg" alt="Gallery Image" />
-          </div>
-          <div class="gallery_items">
-            <img src="images\chhath2.jpg" alt="Gallery Image" />
-          </div>
-          <div class="gallery_items">
-            <img src="images\Radha Krishna 3.jpg" alt="Gallery Image" />
-          </div>
-          <div class="gallery_items">
-            <img src="images\durga2.jpg" alt="Gallery Image" />
-          </div>
-          <div class="gallery_items">
-            <img src="images\ganesh.jpg" alt="Gallery Image" />
-          </div>
-          <div class="gallery_items">
-            <img src="images\durga.jpg" alt="Gallery Image" />
-          </div>
-          <div class="gallery_items">
-            <img src="images\laxmi.jpg" alt="Gallery Image" />
-          </div>
-          <div class="gallery_items">
-            <img src="images\radha Krishna 2.jpg" alt="Gallery Image" />
-          </div>
-          <div class="gallery_items">
-            <img src="images\small statue.jpg" alt="Gallery Image" />
-          </div>
-          <div class="gallery_items">
-            <img src="images\small statue2.jpg" alt="Gallery Image" />
-          </div>
-          <div class="gallery_items">
-            <img src="images\laxmi ganesh.jpg" alt="Gallery Image" />
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section class="contact" id="contact">
-      <h2 class="section_title">Contact Us</h2>
-      <div class="section_container">
-        <div class="contact_container">
-          <div class="contact_form">
-            <form action="https://api.web3forms.com/submit" method="post" >
-              <input type="hidden" name="access_key" value="5a55b58d-35be-410d-bffe-284e1c0caf05">
-              <div class="field">
-                <label for="Name">Full Name</label>
-                <input name="name" id="Name" placeholder="Your Name" required />
-              </div>
-              <div class="field">
-                <label for="gmail">Your Gmail</label>
-                <input
-                  name="gmail"
-                  id="gmail"
-                  placeholder="Your Gmail"
-                  required
-                />
-              </div>
-              <div class="field">
-                <label for="number">Your Number</label>
-                <input
-                  name="number"
-                  id="number"
-                  placeholder="Your Contact Number"
-                  required
-                />
-              </div>
-              <div class="field">
-                <label for="textarea">Textarea</label>
-                <textarea
-                  name="textarea"
-                  id="textarea"
-                  placeholder="Your Message"
-                ></textarea>
-              </div>
-
-              <button class="button" id="post">Submit</button>
-            </form>
-          </div>
-
-          <div class="contact_text">
-            <div class="contact_items">
+        <div class="contact_us">
+          <h3>Contact</h3>
+          <ul>
+            <li>
               <i class="bx bx-current-location"></i>
-              <div class="contact_details">
-                <h3>Our Location</h3>
-                <p>Aliyabad Katai,UP</p>
-              </div>
-            </div>
-            <div class="contact_items">
-              <i class="bx bxs-envelope"></i>
-              <div class="contact_details">
-                <h3>General Enquries</h3>
-                <a
-                href="https://mail.google.com/mail/u/0/#inbox?compose=new"> sachchitanandyadav01@gmail.com </a>
-              </div>
-            </div>
-            <div class="contact_items">
-              <i class="bx bxs-phone-call"></i>
-              <div class="contact_details">
-                <h3>Call Us</h3>
-                <p>+91 9415826430</p>
-              </div>
-            </div>
-            <div class="contact_items">
+              <span>Aliyabad Katai,UP</span>
+            </li>
+            <li>
+              <i class="bx bxs-phone-call"></i> <span>+91 9415826430</span>
+            </li>
+            <li>
               <i class="bx bxs-time-five"></i>
-              <div class="contact_details">
-                <h3>Our Timing</h3>
-                <p>Mon-Sun : 10:00 AM - 7:00 PM</p>
-              </div>
-            </div>
-          </div>
+              <span>Mon-Sun : 10:00 AM - 7:00 PM</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="follow_us">
+          <h3>Follow</h3>
+          <a href="https://www.facebook.com/profile.php?id=100068686804864&mibextid=ZbWKwL"
+            class="bx bxl-facebook-circle"></a>
+          <a href="https://youtube.com/@saraswatimurtikalakendraal5482?si=crS1akq7pYc2spuM" class="bx bxl-youtube"></a>
+          <a href="https://www.instagram.com/smkk_aliyabad_katai?igsh=bnU5ZGxidmxmdjQ4"
+            class="bx bxl-instagram-alt"></a>
+
         </div>
       </div>
-    </section>
+    </div>
+  </footer>
+  <script>
+    // Close the mobile menu immediately after clicking a navigation link
+    const menuLinks = document.querySelectorAll("nav ul a");
+    const menuCheckbox = document.getElementById("click");
 
-    <!-- Footer Section -->
-    <footer>
-      <div class="section_container">
-        <div class="footer_section">
-          <div class="footer_logo">
-            <a href="index.html">
-              <img src="images\logo3.png" alt="smkk_logo" />
-            <h2>Saraswati Murti Kala Kendra</h2>
-            </a>
-          </div>
+    menuLinks.forEach((link) => {
+      link.addEventListener("click", () => {
+        menuCheckbox.checked = false;
+      });
+    });
 
-          <div class="useful_links">
-            <h3>Useful Links</h3>
-            <ul>
-              <li><a href="#about">About</a></li>
-              <li><a href="#service">Services</a></li>
-              <li><a href="#why">Why Us</a></li>
-              <li><a href="#gallery">Gallery</a></li>
-              <li><a href="#contact">Contact</a></li>
-            </ul>
-          </div>
+    // =========================
+    // Full Screen Gallery Viewer
+    // =========================
+    const galleryImages = document.querySelectorAll(".gallery_items img");
+    const lightbox = document.getElementById("lightbox");
+    const lightboxImage = document.getElementById("lightboxImage");
+    const lightboxClose = document.getElementById("lightboxClose");
 
-          <div class="contact_us">
-            <h3>Contact</h3>
-            <ul>
-              <li>
-                <i class="bx bx-current-location"></i>
-                <span>Aliyabad Katai,UP</span>
-              </li>
-              <li>
-                <i class="bx bxs-phone-call"></i> <span>+91 9415826430</span>
-              </li>
-              <li>
-                <i class="bx bxs-time-five"></i>
-                <span>Mon-Sun : 10:00 AM - 7:00 PM</span>
-              </li>
-            </ul>
-          </div>
+    galleryImages.forEach((image) => {
+      image.addEventListener("click", () => {
+        lightboxImage.src = image.src;
+        lightboxImage.alt = image.alt || "Gallery Image";
+        lightbox.classList.add("active");
+        lightbox.setAttribute("aria-hidden", "false");
+        document.body.classList.add("lightbox_open");
+      });
+    });
 
-          <div class="follow_us">
-            <h3>Follow</h3>
-            <a href="https://www.facebook.com/profile.php?id=100068686804864&mibextid=ZbWKwL" class="bx bxl-facebook-circle"></a>
-            <a href="https://youtube.com/@saraswatimurtikalakendraal5482?si=crS1akq7pYc2spuM" class="bx bxl-youtube"></a>
-            <a href="https://www.instagram.com/smkk_aliyabad_katai?igsh=bnU5ZGxidmxmdjQ4"class="bx bxl-instagram-alt"></a>
-            
-          </div>
-        </div>
-      </div>
-    </footer>
-  </body>
+    function closeLightbox() {
+      lightbox.classList.remove("active");
+      lightbox.setAttribute("aria-hidden", "true");
+      document.body.classList.remove("lightbox_open");
+      lightboxImage.src = "";
+    }
+
+    lightboxClose.addEventListener("click", closeLightbox);
+
+    // Close when clicking the dark area outside the image
+    lightbox.addEventListener("click", (event) => {
+      if (event.target === lightbox) {
+        closeLightbox();
+      }
+    });
+
+    // Close with Escape key
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "Escape" && lightbox.classList.contains("active")) {
+        closeLightbox();
+      }
+    });
+  </script>
+</body>
+
 </html>
